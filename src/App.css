@@ -1,0 +1,64 @@
+body{
+  background-color: rgb(255, 255, 255);
+}
+.chatbox{
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: rgb(105, 194, 243);
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.me .chatbox{
+  background-color: rgb(129, 144, 245);
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.container{
+  display: flex;
+}
+.container.me{
+  flex-direction: row-reverse;
+}
+
+.btm{
+  position: fixed;
+  width: 99%;
+  bottom: 2px;
+  display: flex;
+  flex-direction: row;
+}
+.btm input{
+  padding: 10px 0;
+  border-radius: 12px;
+  border: 2px solid black;
+  flex-grow: 1;
+}
+.btm button{
+  padding: 13px 0;
+}
+
+.chat-container{
+  height: 70vh;
+  overflow-y:scroll;
+  border: 2px solid black;
+}
+.button{
+  background-color: rgb(76, 167, 247);
+  color: aliceblue;
+  margin-left: 19px;
+  padding:15px;
+  width: 5%;
+  border-radius: 12px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
